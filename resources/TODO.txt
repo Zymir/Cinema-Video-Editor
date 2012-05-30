@@ -1,0 +1,14 @@
+cambiar el directorio de recursos para que apunten al sistema de ficheros de "site".
+
+Esto esta en el core.makebilbioteca();
+
+--------------------------------
+
+el index.html tiene que pasar a ser editor.php, incorporando toda la seguridad, cabezera y pie que tiene el nuevo site, asi como todas las variables.
+
+Tiene que tener un control para saber que idProyecto tiene que hacer.
+
+hemos de leer los archivos del usuario, listarlos con un makeBiblioteca.
+
+--------
+

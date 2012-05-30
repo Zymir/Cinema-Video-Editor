@@ -1,0 +1,161 @@
+body{
+}
+header{
+	border-bottom:1px solid #c3c3c3;
+	height:50px;
+	margin-bottom:15px;
+}
+h1{
+	margin-bottom:15px;
+}
+footer{
+	margin:auto;
+	margin-top:15px;
+	padding-top:15px;
+	text-align:center;
+	border-top:1px solid #c3c3c3;
+}
+
+/*@Overwrite*/
+.form-actions{
+	background:none;
+}
+#filedrag{
+	margin:20px;
+	text-align:center;
+	line-height:15px;
+	background-color: #c3c3c3 !important;
+}
+#submitbutton{
+	float:right;
+}
+#uploadIframe{
+border: none;
+width: 100%;
+height: 346px;
+}
+#widget-upload{
+	padding:20px;
+}
+ul.widgetListFiles li{
+	list-style:none;
+}
+ul.widgetListFiles li i{
+	margin-right:10px;
+}
+.admin-user-row :hover{
+	cursor:pointer;
+}
+i.mail{
+	margin-left: 10px;
+}
+div.edit-user-div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: none;
+	background: rgba(111, 111, 111, 0.5);
+	padding: 30px;
+	border-radius: 15px;
+	width:500px;
+	height:125px;
+	margin-left:-250px;
+	margin-top:-75px;
+}
+div.edit-user-div2{
+	background: white;
+	border-radius: 5px;
+	height: 100px;
+	padding: 10px;
+}
+span.edit-title{
+	font-size: 15px;
+	background: white;
+	padding: 10px;
+	padding-bottom:15px;
+	border-radius: 5px;
+}
+input#actualizar, input#enviar{
+	float: right;
+}
+ul.nav {
+width: 650px! important;
+}
+.navbar .nav > li.pull-right{
+float:right !important;
+}
+i.hide-popup{
+	position: relative;
+	top: -2px;
+}
+button.hide-popup{
+	float: right;
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+button.news-letter{
+	margin-bottom:20px;
+}
+div.news-div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: none;
+	background: rgba(111, 111, 111, 0.5);
+	padding: 30px;
+	border-radius: 15px;
+	width:500px;
+	height:260px;
+	margin-left:-250px;
+	margin-top:-130px;
+}
+div.news-div2{
+	background: white;
+	border-radius: 5px;
+	height: 230px;
+	padding: 10px;
+}
+span.news-title{
+	font-size: 15px;
+	background: white;
+	padding: 10px;
+	padding-bottom:15px;
+	border-radius: 5px;
+}
+textarea.news-message{
+	width: 470px;
+	height: 90px;
+}
+input#title-input{
+	width: 350px;
+	float: right;
+}
+
+/*CSS3 Animations*/
+
+@-webkit-keyframes loadingAnim {
+	0% {
+		color:#4B9CDE;
+	}
+	25% {
+		color:#54B6EB;
+	}
+	50% {
+		color:#74BFE8;
+	}
+	75% {
+		color:#8EC8E8;
+	}
+	100% {
+		color:#9FCBE3;
+	}
+}
+
+.loadingAnimation {
+	font-size:28px;
+	color:#3468D9;
+	font-weight:bold;
+     -webkit-animation: loadingAnim linear 1s infinite alternate;
+}
